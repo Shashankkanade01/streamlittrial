@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv(r"C:\Users\DELL\Desktop\DataScience_Project\final_cleaned.csv")
+data = pd.read_csv("final_cleaned.csv")
 
 # Converting all the ram column values into GB (gigabytes)
 data['RAM'] = data['RAM'] / 1000
