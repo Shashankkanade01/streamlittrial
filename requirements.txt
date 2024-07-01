@@ -1,0 +1,6 @@
+streamlit
+matplotlib
+pandas
+numpy
+seaborn
+# Add any other dependencies your app requires
